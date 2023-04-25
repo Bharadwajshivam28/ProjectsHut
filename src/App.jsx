@@ -6,6 +6,7 @@ import SplashScreen from "./components/SplashScreen"
 import PageNotFound from "./components/PageNotFound"
 import { ThemeContext } from "./context/Theme"
 import ScrollToTop from "./components/ScrollToTop"
+import About from "./pages/About"
 
 function App() {
   const { theme } = useContext(ThemeContext)
@@ -35,6 +36,7 @@ function App() {
           <Navbar />
           <ScrollToTop />
           <Routes>
+            <Route path="/About" element={<About />} />
             <Route path="/" element={<HomePage />} />
             <Route path="/ProjectsPage" element={<ProjectsPage />} />
             <Route path="/ContributorsPage" element={<ContriButorsPage />} />

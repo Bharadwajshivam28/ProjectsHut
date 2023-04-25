@@ -49,6 +49,16 @@ export default function SideMenu(props) {
           >
             {"Projects"}
           </NavLink>
+
+          <li>
+            <NavLink
+              to="/About"
+              className="inline-block py-2 px-3 text-center font-bold text-white hover:bg-gray-800 rounded-md active:bg-gray-800 focus:outline-none focus:ring focus:ring-gray-800"
+              onClick={() => props.handleDrawerToggle()}
+            >
+              {"About"}
+            </NavLink>
+          </li>
         </li>
         <li>
           <NavLink

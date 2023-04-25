@@ -54,6 +54,16 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
+
+            <li>
+              <NavLink
+                to="/About"
+                className="inline-block py-2 px-3 text-center font-fold rounded-md focus:outline-none focus:ring-gray-800"
+              >
+                About
+              </NavLink>
+            </li>
+
             <li>
               <NavLink
                 to="/ProjectsPage"
