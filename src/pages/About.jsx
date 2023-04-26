@@ -33,10 +33,10 @@ function About() {
         on-the-go.
       </p>
       <p class="leading-loose flex justify-center "> We very highly take care of our users security.</p>
-      <p class="leading-loose flex justify-center"> We have also MIT License.</p>
+      <p class=" flex justify-center"> We have also MIT License.</p>
 
-      <div class="flex items-center justify-center min-h-screen">
-        <div class="flex items-center justify-between h-80 text-white  rounded-lg shadow-md">
+      <div class="flex items-center justify-center">
+        <div class="flex items-center justify-between h-80 text-white rounded-lg shadow-md">
           <div>
             <span class="text-8xl">We ❤️ ProjectsHut</span>
           </div>
